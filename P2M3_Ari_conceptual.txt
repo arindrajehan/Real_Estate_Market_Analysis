@@ -1,0 +1,31 @@
+1. Apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui ?
+    
+    NoSQL adalah sebuah konsep database yang tidak menggunakan struktur tabel relasional seperti pada database relational. NoSQL memungkinkan kita untuk menyimpan data dalam berbagai format, seperti dokumen, grafik, atau key-value. Hal ini membuat NoSQL lebih fleksibel dan scalable dibandingkan dengan database relational. NoSQL juga dapat menangani jumlah data yang sangat besar dan beragam, sehingga sangat cocok untuk aplikasi yang memerlukan penyimpanan data dalam jumlah besar dan beragam.
+
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+    
+    NoSQL harus digunakan ketika kita memiliki data yang tidak terstruktur atau semi-terstruktur, seperti data dari social media atau IoT devices. NoSQL juga sangat cocok untuk aplikasi yang memerlukan skalabilitas tinggi dan performa yang cepat. Di sisi lain, Relational Database Management System (RDBMS) harus digunakan ketika kita memiliki data yang terstruktur dan memerlukan relasi antar tabel, seperti pada aplikasi ERP atau CRM.
+
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+
+    Contoh 2 tools/platform NoSQL selain ElasticSearch adalah:
+        1. MongoDB: MongoDB adalah sebuah database NoSQL yang populer digunakan untuk aplikasi web dan mobile. Keunggulan MongoDB adalah kemampuan untuk menyimpan data dalam format dokumen JSON, sehingga sangat mudah untuk digunakan dalam aplikasi yang memerlukan penyimpanan data dalam format JSON.
+        2. Cassandra: Cassandra adalah sebuah database NoSQL yang dikembangkan oleh Apache. Keunggulan Cassandra adalah kemampuan untuk menangani jumlah data yang sangat besar dan beragam, serta kemampuan untuk melakukan scaling secara horizontal.
+
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+    
+    Airflow adalah sebuah platform workflow management yang digunakan untuk mengelola dan menjalankan task-task dalam sebuah pipeline. Airflow memungkinkan kita untuk mendefinisikan task-task yang akan dijalankan, serta mengelola ketergantungan antar task. Airflow juga memiliki fitur scheduling yang memungkinkan kita untuk menjalankan task-task pada waktu yang telah ditentukan. Keunggulan Airflow adalah kemampuan untuk mengelola kompleksitas pipeline dan meningkatkan efisiensi dalam menjalankan task-task.
+
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+    
+    Great Expectations adalah sebuah library Python yang digunakan untuk memvalidasi dan memantau kualitas data. Great Expectations memungkinkan kita untuk mendefinisikan ekspektasi terhadap data, seperti format, nilai, dan distribusi. Great Expectations juga memiliki fitur untuk memantau kualitas data secara real-time dan memberikan notifikasi jika terjadi kesalahan. Keunggulan Great Expectations adalah kemampuan untuk meningkatkan kualitas data dan mengurangi risiko kesalahan dalam analisis data.
+
+
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+
+    Batch Processing adalah sebuah metode pengolahan data yang digunakan untuk memproses data dalam jumlah besar secara offline. Batch Processing memungkinkan kita untuk memproses data dalam jumlah besar secara efisien dan efektif. Contoh kasus penggunaan Batch Processing adalah pada aplikasi yang memerlukan pengolahan data dalam jumlah besar, seperti pengolahan data log atau pengolahan data transaksi.
+    Tools yang digunakan dalam Batch Processing adalah seperti Apache Hadoop, Apache Spark, dan Apache Flink. Keunggulan Batch Processing adalah kemampuan untuk memproses data dalam jumlah besar secara efisien dan efektif, serta kemampuan untuk mengurangi biaya dan meningkatkan performa.
